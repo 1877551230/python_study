@@ -64,8 +64,8 @@ def save_imgs(folder,img_url):
 
 def download_mm(folder='ooxx',pages=10):
     
-    #os.mkdir(folder)
-    #os.chdir(folder)
+    os.mkdir(folder)
+    os.chdir(folder)
 	
     url = 'http://rosi8.cc/rosixiezhen/'
     page_num = int(get_page(url))
