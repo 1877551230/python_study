@@ -11,7 +11,7 @@ def url_open(url):
 
 def get_page(url):
     html = url_open(url)
-    return '2796'
+    return '2795'
 	
    # a = html.find('current-comment-page') + 23
    # b = html.find(']',a)
